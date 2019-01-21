@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flappy Bird</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#text, #score, #bestScore{
+			font-size: 25px;
+			border: 3px solid #fff;
+			/*border: 3px solid #fff;*/
+			box-shadow: 0 0 0 3px #D44A08;
+			padding: 5px;
+			border-radius: 5px;
+			background-color: orange;
+		}
+		#text{
+			position: absolute;
+			margin-left: 25px;
+			margin-top: 100px;
+		}
+		#score{
+			position: absolute;
+			margin-left: 128px;
+			margin-top: 195px;
+			opacity: 0;
+		}
+		#bestScore{
+			position: absolute;
+			margin-left: 100px;
+			margin-top: 250px;
+			opacity: 0;
+		}
+		#canvas{
+			animation-duration:11s;
+		}
+	</style>
+</head>
+<body>
+	<span id="text">For START press any button</span>
+	<span id="score"></span>
+	<span id="bestScore"></span>
+	<canvas id="canvas" width="350" height="512">
+		
+	</canvas>
+	
+</body>
+<script type="text/javascript" src="js/game.js"></script>
+</html>
